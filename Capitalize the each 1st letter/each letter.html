@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Each letter Uppercase</title>
+</head>
+
+<body>
+
+    <script>
+
+        let name = "varuga varuga for the concert"
+        let letter = name.split(" ")
+        for (var i = 0; i< letter.length; i++) {
+            letter[i] = letter[i][0].toUpperCase() + letter[i].substr(1)
+        }
+       let sen =  letter.join(" ")
+console.log(sen)
+
+    </script>
+
+</body>
+
+</html>
