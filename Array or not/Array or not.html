@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array or not</title>
+</head>
+
+<body>
+
+    <script>
+
+        // const myArr1=([1,2,3,4,5]);
+        // const myArr2=(["james","kumar","rahul"]);
+        // const myArr3=('[1,2,3,4,5,6,7,8,9,10]')
+
+        function isArray(input){
+            if( Array.isArray(input)){
+return "it's an Array"
+            }
+        else{
+            return "it's not an  Array"
+        }
+        } 
+
+       console.log(isArray([1,2,3]));
+       console.log(isArray('[1,2,3]'));
+       console.log(isArray(["hello","vanakam"]))
+
+
+
+
+    </script>
+
+
+</body>
+
+</html>
